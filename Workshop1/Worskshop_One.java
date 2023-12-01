@@ -1,16 +1,12 @@
-// 1. Write a program to get the following output.
-// Hey there,
-// I am “some data”! (assign a variable and print the variable data)
 
-// public class Worskshop_One {
+public class Worskshop_One {
 
-//     public static void main(String[] args) {
-//         String data = "Luffy";
-//         System.out.println("Hey there,");
-//         System.out.println("I am "+ data);
-//     }
-
-// }
+    public static void main(String[] args) {
+        String data = "Luffy";
+        System.out.println("Hey there,");
+        System.out.println("I am \""+ data + "\"!" );
+    }
+}
 
 // 2. Write a program to print the difference and product of numbers 45 and 32. 
 
@@ -50,8 +46,8 @@
 // 4.	Write a program to calculate the area of a triangle.  
 // Where s is the semi-perimeter of the triangle s = (a+b+c)/2
 
-import java.lang.Math;
-import java.util.Scanner;
+// import java.lang.Math;
+// import java.util.Scanner;
 // public class Worskshop_One {
 
 //     public static void main(String[] args) {
@@ -269,14 +265,14 @@ import java.util.Scanner;
  * 14.	Write a Java program that converts a given amount of money in U.S. dollars to another currency (e.g., rupees).
  *  Prompt the user to enter the amount and the exchange rate, and display the converted amount as a double.
  */
-public class Worskshop_One {
-    public static void main(String[] args) {
-        Scanner a = new Scanner(System.in);
-        System.out.println("US Dollar => Nepali Rupees");
-        System.out.println("Enter the amount to US dollars:");
-        double dollar = a.nextDouble();
-        double rupees = dollar * 133.43;
-        System.out.println("$" +dollar + " = Rs." + rupees);
-    }
+// public class Worskshop_One {
+//     public static void main(String[] args) {
+//         Scanner a = new Scanner(System.in);
+//         System.out.println("US Dollar => Nepali Rupees");
+//         System.out.println("Enter the amount to US dollars:");
+//         double dollar = a.nextDouble();
+//         double rupees = dollar * 133.43;
+//         System.out.println("$" +dollar + " = Rs." + rupees);
+//     }
     
-}
+// }
